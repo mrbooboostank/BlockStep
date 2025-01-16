@@ -3,7 +3,7 @@ blockstep.MESSAGE_PRINTINFO = 0
 blockstep.MESSAGE_RESETOVERRIDES = 1
 blockstep.MESSAGE_ZS_STEP_HEIGHT = 2
 blockstep.NETWORK_BITS = 2
-blockstep.VERSION = "1.0.0.rc1"
+blockstep.VERSION = "1.0.0.rc2"
 
 print( "[blockstep] Version " .. blockstep.VERSION )
 print( "[blockstep] Initializing..." )

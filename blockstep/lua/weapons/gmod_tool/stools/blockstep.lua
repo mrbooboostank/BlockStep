@@ -112,6 +112,11 @@ function TOOL.BuildCPanel( CPanel )
 		gui.OpenURL( "https://steamcommunity.com/sharedfiles/filedetails/?id=3404258252" )
 	end
 	
+	local githubButton = CPanel:Button( FormatKey( "#tool.blockstep.github", "BlockStep", "GitHub" ) )
+	githubButton.DoClick = function()
+		gui.OpenURL( "https://github.com/mrbooboostank/BlockStep" )
+	end
+	
 	CPanel:Help( FormatKey( "#tool.blockstep.panel.8", "BlockStep" ) )
 	CPanel:Help( FormatKey( "#tool.blockstep.panel.9", "blockstep" ) )
 	
