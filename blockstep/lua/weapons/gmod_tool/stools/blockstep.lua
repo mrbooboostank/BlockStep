@@ -117,6 +117,11 @@ function TOOL.BuildCPanel( CPanel )
 		gui.OpenURL( "https://github.com/mrbooboostank/BlockStep" )
 	end
 	
+	local workshopButton = CPanel:Button( FormatKey( "#tool.blockstep.workshop", "BlockStep", "Steam Workshop" ) )
+	workshopButton.DoClick = function()
+		gui.OpenURL( "https://steamcommunity.com/sharedfiles/filedetails/?id=3408399013" )
+	end
+	
 	CPanel:Help( FormatKey( "#tool.blockstep.panel.8", "BlockStep" ) )
 	CPanel:Help( FormatKey( "#tool.blockstep.panel.9", "blockstep" ) )
 	
